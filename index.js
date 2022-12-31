@@ -7,6 +7,7 @@ require('dotenv').config()
 
 
 app.use(cors())
+app.use(express.json())
 
 
 
@@ -16,8 +17,32 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
 async function run() {
     try {
-        const serviceCollection = client.db("packersService").collection("services");
-        const reviewCollection = client.db("packersService").collection("reviews");
+        const categoryCollection = client.db("IdealBlogs").collection("categories");
+        const postCollection = client.db("IdealBlogs").collection("posts");
+        const userCollection = client.db("IdealBlogs").collection("users");
+
+        // get all categories  
+        app.get('/categories', async (req, res) => {
+            const query = {}
+            const cursor = categoryCollection.find(query)
+            const categories = await cursor.toArray()
+            res.send(categories)
+        });
+
+        // send user data to db
+        app.post('/users', async (req, res) => {
+            const user = req.body;
+            console.log(user)
+            const userEmail = user.email;
+            const emailQuery = { email: userEmail }
+            const alreadyRegistred = await userCollection.findOne(emailQuery);
+            if (alreadyRegistred) {
+                return
+            }
+            const result = await userCollection.insertOne(user);
+            console.log(result)
+            res.send(result)
+        });
 
 
     } finally {
