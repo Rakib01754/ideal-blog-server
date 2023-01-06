@@ -1,14 +1,80 @@
 [
     {
-        "authorImage": "",
-        "authorName": "",
-        "authorEmail": "",
-        "postedDate": "",
-        "category": "",
-        "title": "",
-        "details": "",
+        "authorImage": "https://s.ndtvimg.com/images/entities/300/shakib-al-hasan-792.png",
+        "authorName": "Shakib Al Hasan",
+        "authorEmail": "shakib@email.com",
+        "postedDate": "31/12/2022",
+        "category": "Technology",
+        "categoryId": "03",
+        "title": "Sample Post Of Technology",
+        "details": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.",
         "totalLike": 0,
+        "adminChoice": true,
+        "postImage": "https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg"
+    },
+    {
+        "authorImage": "https://www.cricdiction.com/wp-content/uploads/2022/09/Mahmudullah-Riyad.jpg",
+        "authorName": "Mahmudullah Riyadh",
+        "authorEmail": "riyadh@email.com",
+        "postedDate": "31/12/2022",
+        "category": "Sports",
+        "categoryId": "02",
+        "title": "Sample Post of Sports",
+        "details": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.",
+        "totalLike": 2,
+        "adminChoice": true,
+        "postImage": "https://www.totalsportal.com/wp-content/uploads/2021/12/Sports-Pictures.jpg"
+    },
+    {
+        "authorImage": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/323100/323159.png",
+        "authorName": "Afif Hossain",
+        "authorEmail": "afif@email.com",
+        "postedDate": "31/12/2022",
+        "category": "Science",
+        "categoryId": "01",
+        "title": "Sample Post of Science",
+        "details": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.",
+        "totalLike": 10,
         "adminChoice": false,
-        "postImage": ""
+        "postImage": "https://www.totalsportal.com/wp-content/uploads/2021/12/Sports-Pictures.jpg"
+    },
+    {
+        "authorImage": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/319700/319727.png",
+        "authorName": "Liton Das",
+        "authorEmail": "liton@email.com",
+        "postedDate": "04/01/2023",
+        "category": "History",
+        "categoryId": "06",
+        "title": "Sample Post Of History",
+        "details": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.",
+        "totalLike": 7,
+        "adminChoice": true,
+        "postImage": "https://peacepalacelibrary.nl/sites/default/files/styles/featured_image/public/2022-08/Oude-drukken7.jpg?itok=Vbom8n8c"
+    },
+    {
+        "authorImage": "http://ecdn.banglatribune.com/contents/cache/images/825x0x1/uploads/media/2019/03/13/f29f4c3fbddef5368ad2e7a7110d781c-5c88ca298a383.jpg",
+        "authorName": "Mushfiqur Rahim",
+        "authorEmail": "mushfiq@email.com",
+        "postedDate": "04/01/2023",
+        "category": "Travel",
+        "categoryId": "05",
+        "title": "Sample Post of Travel",
+        "details": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.",
+        "totalLike": 11,
+        "adminChoice": false,
+        "postImage": "https://thumbs.dreamstime.com/b/ready-summer-vacation-travel-background-d-rendering-114574299.jpg"
+    },
+    {
+        "authorImage": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2022/07/17/fece5354ecbebe852c803595161fa4e2.jpg?quality=80&zoom=1&ssl=1",
+        "authorName": "Tamim Iqbal",
+        "authorEmail": "tamim@email.com",
+        "postedDate": "04/01/2023",
+        "category": "Other",
+        "categoryId": "04",
+        "title": "Sample Post of Other",
+        "details": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda vero suscipit incidunt, sequi fugiat possimus! Praesentium excepturi dolores ipsum.",
+        "totalLike": 6,
+        "adminChoice": false,
+        "postImage": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaWNpbmVzfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
     }
 ]
